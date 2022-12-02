@@ -1,0 +1,12 @@
+- .. set up json-server backend (api)
+	- src/data/db.json
+		- "flashcards": []
+	- Postman - test API
+	- Rest Client - test API
+- main.ts
+	- fetch flascards from backend
+	- show flashcards
+- enable frontend and backend to start with "npm start"
+- create delete button
+	- resolve handle function deleteFlashcard()
+
