@@ -1,6 +1,6 @@
 - .. set up json-server backend (api)
-	- .. src/data/db.json
-		- "flashcards": []
+	- x src/data/db.json
+		- x "flashcards": []
 	- Postman - test API
 	- Rest Client - test API
 - main.ts

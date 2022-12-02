@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "api": "json-server --watch ./src/data/db.json --port 5577"
   },
   "devDependencies": {
     "typescript": "^4.6.4",
