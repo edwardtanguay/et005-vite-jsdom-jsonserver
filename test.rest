@@ -3,5 +3,8 @@
 ### GET ALL
 {{url}}
 
-### GET SINGULAR
+### GET SINGLE
 {{url}}/3
+
+### DELETE SINGLE
+DELETE {{url}}/3
