@@ -1,10 +1,10 @@
-- .. x set up json-server backend (api)
+- x x set up json-server backend (api)
 	- x src/data/db.json
 		- x "flashcards": []
 	- x Postman - test API
-	- .. Rest Client - test API
-- main.ts
-	- fetch flascards from backend
+	- x Rest Client - test API
+- .. main.ts
+	- .. fetch flascards from backend axios
 	- show flashcards
 - enable frontend and backend to start with "npm start"
 - create delete button
