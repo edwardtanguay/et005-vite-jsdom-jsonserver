@@ -28,6 +28,9 @@ ${flashcards.map((flashcard: Flashcard) => {
 <div class="category">${flashcard.category}</div>	
 <div class="front">${flashcard.front}</div>	
 <div class="back">${flashcard.back}</div>	
+<div class="buttonRow">
+	<div><button>Delete</button></div>
+</div>
 	</div>`;
 }).join('')}
 
