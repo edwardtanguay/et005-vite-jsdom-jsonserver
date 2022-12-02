@@ -3,10 +3,10 @@
 		- x "flashcards": []
 	- x Postman - test API
 	- x Rest Client - test API
-- .. main.ts
-	- .. fetch flascards from backend axios
-	- show flashcards
-- enable frontend and backend to start with "npm start"
+- x main.ts
+	- x fetch flashcards from backend axios
+	- x show flashcards
+- .. enable frontend and backend to start with "npm start"
 - create delete button
 	- resolve handle function deleteFlashcard()
 
