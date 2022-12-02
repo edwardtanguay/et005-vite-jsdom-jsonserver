@@ -1,8 +1,8 @@
 - .. x set up json-server backend (api)
 	- x src/data/db.json
 		- x "flashcards": []
-	- Postman - test API
-	- Rest Client - test API
+	- x Postman - test API
+	- .. Rest Client - test API
 - main.ts
 	- fetch flascards from backend
 	- show flashcards

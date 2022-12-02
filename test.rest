@@ -1,0 +1,7 @@
+@url = http://localhost:5577/flashcards
+
+### GET ALL
+{{url}}
+
+### GET SINGULAR
+{{url}}/3
