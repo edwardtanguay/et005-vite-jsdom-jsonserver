@@ -1,5 +1,5 @@
 - .. set up json-server backend (api)
-	- src/data/db.json
+	- .. src/data/db.json
 		- "flashcards": []
 	- Postman - test API
 	- Rest Client - test API
