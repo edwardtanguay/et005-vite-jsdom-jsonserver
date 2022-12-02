@@ -8,3 +8,13 @@
 
 ### DELETE SINGLE
 DELETE {{url}}/3
+
+### POST SINGLE
+POST {{url}}
+content-type: application/json
+
+{
+	"category": "german",
+	"front": "That is a house.",
+	"back": "Das ist ein Haus."
+}

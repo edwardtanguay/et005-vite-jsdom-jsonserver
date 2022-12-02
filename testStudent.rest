@@ -1,0 +1,4 @@
+@url = https://test.100best.guide/locations/dci-students/student
+
+### GET ALL
+{{url}}
