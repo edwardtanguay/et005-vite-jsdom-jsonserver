@@ -19,6 +19,10 @@ const url = 'http://localhost:5577/flashcards';
 const response = await axios.get(url);
 const flashcards = response.data;
 
+// const deleteFlashcard = (flashcard: Flashcard) => {
+// 	console.log(flashcard);
+// }
+
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 <h1>Flashcards</h1>
 <div class="flashcards">
@@ -29,7 +33,7 @@ ${flashcards.map((flashcard: Flashcard) => {
 <div class="front">${flashcard.front}</div>	
 <div class="back">${flashcard.back}</div>	
 <div class="buttonRow">
-	<div><button>Delete</button></div>
+	<div><button onclick="deleteFlashcard(${flashcard.id})">Delete</button></div>
 </div>
 	</div>`;
 }).join('')}
