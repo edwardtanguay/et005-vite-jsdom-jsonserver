@@ -1,5 +1,6 @@
 import './style.scss';
 import axios from 'axios';
+import { setupDeleteButtons } from './components/deleteButton';
 
 type Flashcard = {
 	id: number,
@@ -28,15 +29,19 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 <div class="flashcards">
 
 ${flashcards.map((flashcard: Flashcard) => {
-	return `<div class="flashcard">
-<div class="category">${flashcard.category}</div>	
-<div class="front">${flashcard.front}</div>	
-<div class="back">${flashcard.back}</div>	
-<div class="buttonRow">
-	<div><button onclick="deleteFlashcard(${flashcard.id})">Delete</button></div>
-</div>
+	return `
+	<div class="flashcard">
+		<div class="category">${flashcard.category}</div>	
+		<div class="front">${flashcard.front}</div>	
+		<div class="back">${flashcard.back}</div>	
+		<div class="buttonRow">
+			<div><button type="button" class="deleteButton">Delete</button></div>
+		</div>
 	</div>`;
 }).join('')}
 
 </div>
 `;
+
+const arrayOfDeleteButtons: HTMLButtonElement[] = Array.from(document.querySelectorAll('.deleteButton'));
+setupDeleteButtons(arrayOfDeleteButtons);
