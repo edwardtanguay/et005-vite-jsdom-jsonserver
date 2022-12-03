@@ -35,7 +35,7 @@ ${flashcards.map((flashcard: Flashcard) => {
 		<div class="front">${flashcard.front}</div>	
 		<div class="back">${flashcard.back}</div>	
 		<div class="buttonRow">
-			<div><button type="button" class="deleteButton">Delete</button></div>
+			<div><button type="button" class="deleteButton" data-id="999">Delete</button></div>
 		</div>
 	</div>`;
 }).join('')}
@@ -43,5 +43,4 @@ ${flashcards.map((flashcard: Flashcard) => {
 </div>
 `;
 
-const arrayOfDeleteButtons: HTMLButtonElement[] = Array.from(document.querySelectorAll('.deleteButton'));
-setupDeleteButtons(arrayOfDeleteButtons);
+setupDeleteButtons(Array.from(document.querySelectorAll('.deleteButton')));
