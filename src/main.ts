@@ -1,22 +1,12 @@
 import './style.scss';
 import axios from 'axios';
-import { setupDeleteButtons } from './components/deleteButton';
-import { Flashcard } from './types';
+import { setupDeleteButtons } from './components/deleteButton.js';
+import { Flashcard } from './types.js';
 
 const url = 'http://localhost:5577/flashcards';
 
-// FETCH ONE-LINER
-// const flashcards = await(await fetch(url)).json();
-
-// AXIOS ONE-LINER
-// const flashcards = (await axios.get(url)).data;
-
 const response = await axios.get(url);
 const flashcards = response.data;
-
-// const deleteFlashcard = (flashcard: Flashcard) => {
-// 	console.log(flashcard);
-// }
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 <h1>Flashcards</h1>
