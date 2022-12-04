@@ -1,18 +1,30 @@
 {
-  "flashcards": [
-    {
-      "id": 3,
-      "category": "linux",
-      "front": "how to get git to remember your github credentials",
-      "back": "git config --global credential.helper store"
-    },
-    {
-      "category": "german",
-      "front": "That is a house.",
-      "back": "Das ist ein Haus.",
-      "id": 4
-    }
-  ],
+  	"flashcards": [
+		{
+			"id": 1,
+			"category": "git",
+			"front": "change user name to another name",
+			"back": "git config --global user.name \"Hans Schmidt\""
+		},
+		{
+			"id": 2,
+			"category": "git",
+			"front": "change email and change back",
+			"back": "git config --global user.email \"hans@nnn.com\""
+		},
+		{
+			"id": 3,
+			"category": "linux",
+			"front": "how to get git to remember your github credentials",
+			"back": "git config --global credential.helper store"
+		},
+		{
+			"category": "german",
+			"front": "That is a house.",
+			"back": "Das ist ein Haus.",
+			"id": 4
+		}
+	],
   "students": [
     {
       "info": {
