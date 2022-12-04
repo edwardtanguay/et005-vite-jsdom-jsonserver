@@ -4,6 +4,14 @@ body {
   font-family: sans-serif;
   padding: 0 1rem;
 
+  h1 {
+    margin: 0;
+  }
+
+  .siteMessage {
+    margin: 1rem 0;
+  }
+
   .flashcards {
     .flashcard {
       background-color: #222;

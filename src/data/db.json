@@ -1,68 +1,60 @@
 {
-	"flashcards": [
-		{
-			"id": 1,
-			"category": "git",
-			"front": "change user name to another name",
-			"back": "git config --global user.name \"Hans Schmidt\""
-		},
-		{
-			"id": 2,
-			"category": "git",
-			"front": "change email and change back",
-			"back": "git config --global user.email \"hans@nnn.com\""
-		},
-		{
-			"id": 3,
-			"category": "linux",
-			"front": "how to get git to remember your github credentials",
-			"back": "git config --global credential.helper store"
-		},
-		{
-			"category": "german",
-			"front": "That is a house.",
-			"back": "Das ist ein Haus.",
-			"id": 4
-		}
-	],
-	"students": [
-		{
-			"info": { "count": 3, "limit": -1, "pages": 1 },
-			"students": [
-				{
-					"address": {
-						"street": "hauptstr",
-						"postalCode": 13055,
-						"streetNum": 12,
-						"city": "laatzen"
-					},
-					"_id": "63888409565595989c02bfa6",
-					"name": "Peter Pan",
-					"classId": "CS-2022"
-				},
-				{
-					"address": {
-						"street": "reeperbahn",
-						"postalCode": 20359,
-						"streetNum": 35,
-						"city": "hamburch"
-					},
-					"_id": "63888578565595989c02bfd8",
-					"name": "Kalle Schwansen",
-					"classId": "crime-2022"
-				},
-				{
-					"address": {
-						"street": "am hasenloch",
-						"postalCode": 10101,
-						"streetNum": 10,
-						"city": "zauberwald"
-					},
-					"_id": "638885dd565595989c02bfe0",
-					"name": "Alice Wunderland",
-					"classId": "magic-2022"
-				}
-			]
-		}
-	]
+  "flashcards": [
+    {
+      "id": 3,
+      "category": "linux",
+      "front": "how to get git to remember your github credentials",
+      "back": "git config --global credential.helper store"
+    },
+    {
+      "category": "german",
+      "front": "That is a house.",
+      "back": "Das ist ein Haus.",
+      "id": 4
+    }
+  ],
+  "students": [
+    {
+      "info": {
+        "count": 3,
+        "limit": -1,
+        "pages": 1
+      },
+      "students": [
+        {
+          "address": {
+            "street": "hauptstr",
+            "postalCode": 13055,
+            "streetNum": 12,
+            "city": "laatzen"
+          },
+          "_id": "63888409565595989c02bfa6",
+          "name": "Peter Pan",
+          "classId": "CS-2022"
+        },
+        {
+          "address": {
+            "street": "reeperbahn",
+            "postalCode": 20359,
+            "streetNum": 35,
+            "city": "hamburch"
+          },
+          "_id": "63888578565595989c02bfd8",
+          "name": "Kalle Schwansen",
+          "classId": "crime-2022"
+        },
+        {
+          "address": {
+            "street": "am hasenloch",
+            "postalCode": 10101,
+            "streetNum": 10,
+            "city": "zauberwald"
+          },
+          "_id": "638885dd565595989c02bfe0",
+          "name": "Alice Wunderland",
+          "classId": "magic-2022"
+        }
+      ]
+    }
+  ]
 }
