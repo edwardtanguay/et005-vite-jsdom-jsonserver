@@ -19,10 +19,10 @@
 			"back": "git config --global credential.helper store"
 		},
 		{
+			"id": 4,
 			"category": "german",
 			"front": "That is a house.",
-			"back": "Das ist ein Haus.",
-			"id": 4
+			"back": "Das ist ein Haus."
 		}
 	]
 }
