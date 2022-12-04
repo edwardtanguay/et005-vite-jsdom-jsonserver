@@ -25,7 +25,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 
 ${flashcards.map((flashcard: Flashcard) => {
 	return `
-	<div class="flashcard">
+	<div class="flashcard" data-id="${flashcard.id}">
 		<div class="category">${flashcard.category}</div>	
 		<div class="front">${flashcard.front}</div>	
 		<div class="back">${flashcard.back}</div>	
