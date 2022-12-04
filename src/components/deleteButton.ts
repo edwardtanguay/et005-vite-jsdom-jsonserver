@@ -8,9 +8,13 @@ export const setupDeleteButtons = (buttonElems: HTMLButtonElement[], siteMessage
 				try {
 					const res = await axios.delete(url + '/' + String(id));
 					if (res.status = 200) {
-						console.log('reload page');
-						// delete flashcard element
-						console.log(flashcardElems)
+						// flashcard has been deleted in backend, therefore delete it on the frontend
+						flashcardElems.forEach(flashcardElem => {
+							const flashcardId = Number(flashcardElem.dataset.id);
+							if (flashcardId === id) {
+								flashcardElem.style.display = 'none';
+							}
+						});
 					} else {
 						if (siteMessageElem !== null) {
 							siteMessageElem.innerText = res.statusText;
