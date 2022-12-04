@@ -24,49 +24,5 @@
 			"back": "Das ist ein Haus.",
 			"id": 4
 		}
-	],
-  "students": [
-    {
-      "info": {
-        "count": 3,
-        "limit": -1,
-        "pages": 1
-      },
-      "students": [
-        {
-          "address": {
-            "street": "hauptstr",
-            "postalCode": 13055,
-            "streetNum": 12,
-            "city": "laatzen"
-          },
-          "_id": "63888409565595989c02bfa6",
-          "name": "Peter Pan",
-          "classId": "CS-2022"
-        },
-        {
-          "address": {
-            "street": "reeperbahn",
-            "postalCode": 20359,
-            "streetNum": 35,
-            "city": "hamburch"
-          },
-          "_id": "63888578565595989c02bfd8",
-          "name": "Kalle Schwansen",
-          "classId": "crime-2022"
-        },
-        {
-          "address": {
-            "street": "am hasenloch",
-            "postalCode": 10101,
-            "streetNum": 10,
-            "city": "zauberwald"
-          },
-          "_id": "638885dd565595989c02bfe0",
-          "name": "Alice Wunderland",
-          "classId": "magic-2022"
-        }
-      ]
-    }
-  ]
+	]
 }
