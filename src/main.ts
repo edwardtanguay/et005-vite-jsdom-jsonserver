@@ -38,4 +38,4 @@ ${flashcards.map((flashcard: Flashcard) => {
 </div>
 `;
 
-setupDeleteButtons(Array.from(document.querySelectorAll('.deleteButton')), document.querySelector('.siteMessage'), flashcards, url);
+setupDeleteButtons(Array.from(document.querySelectorAll('.deleteButton')), document.querySelector('.siteMessage'), Array.from(document.querySelectorAll('.flashcard')), url);
